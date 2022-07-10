@@ -28,7 +28,7 @@
 /grd_fw	emmc	emmc		/dev/block/platform/bootdevice/by-name/grd_fw	
 
 # Samsung ODE
-/keydata        ext4        	/dev/block/platform/bootdevice/by-name/keydata     
+/keydata    ext4       	/dev/block/platform/bootdevice/by-name/keydata     
 /keyrefuge	f2fs		/dev/block/platform/bootdevice/by-name/keyrefuge	
 
 #Auto-generated code by FOTA Build Portal
