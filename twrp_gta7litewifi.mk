@@ -15,7 +15,7 @@
 #
 
 # Release name
-PRODUCT_RELEASE_NAME := gta7lite
+PRODUCT_RELEASE_NAME := gta7litewifi
 
 # Inherit from common AOSP config
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
@@ -25,19 +25,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/samsung/gta7lite/device.mk)
+$(call inherit-product, device/samsung/gta7litewifi/device.mk)
 
 # Charger
 PRODUCT_PACKAGES += \
     charger_res_images
 
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,device/samsung/gta7lite/recovery/root,recovery/root)
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,device/samsung/gta7litewifi/recovery/root,recovery/root)
 
 ## Device identifier. This must come after all inclusions
-## Codenamed gta7litexx
-PRODUCT_NAME := twrp_gta7lite
-PRODUCT_DEVICE := gta7lite
-PRODUCT_MODEL := SM-T225
+PRODUCT_NAME := twrp_gta7litewifi
+PRODUCT_DEVICE := gta7litewifi
+PRODUCT_MODEL := SM-T220
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
