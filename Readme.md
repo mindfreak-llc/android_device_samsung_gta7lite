@@ -5,8 +5,8 @@ It will boot, feel free to fork this and do whatever you want. Take this as a st
 ```xml
 <manifest>
   <!--T220-->
-  <project path="device/samsung/gta7litewifixx" name="DevZillion/android_device_samsung_gta7lite" remote="github" revision="gta7litewifixx"/>
+  <project path="device/samsung/gta7litewifi" name="DevZillion/android_device_samsung_gta7lite" remote="github" revision="gta7litewifixx"/>
   <!--T225-->
-  <project path="device/samsung/gta7litexx" name="DevZillion/android_device_samsung_gta7lite" remote="github" revision="gta7litexx"/>
+  <project path="device/samsung/gta7lite" name="DevZillion/android_device_samsung_gta7lite" remote="github" revision="gta7litexx"/>
 </manifest>
 ```
