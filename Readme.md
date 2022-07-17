@@ -8,5 +8,7 @@ It will boot, feel free to fork this and do whatever you want. Take this as a st
   <project path="device/samsung/gta7litewifi" name="DevZillion/android_device_samsung_gta7lite" remote="github" revision="gta7litewifixx"/>
   <!--T225-->
   <project path="device/samsung/gta7lite" name="DevZillion/android_device_samsung_gta7lite" remote="github" revision="gta7litexx"/>
+  <!--T227-->
+  <project path="device/samsung/gta7litetur" name="DevZillion/android_device_samsung_gta7lite" remote="github" revision="gta7litetur"/>
 </manifest>
 ```
